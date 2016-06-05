@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D57AB8C1D037815007B91FD /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D57AB8B1D037815007B91FD /* AppDetailViewController.swift */; };
+		4D6A4DCA1D0258780085FA50 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A4DC91D0258780085FA50 /* CategoriesCollectionViewCell.swift */; };
+		4DE3DCF81D031EF800074A26 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DE3DCF71D031EF800074A26 /* SourceSansPro-Regular.ttf */; };
+		4DE3DCFA1D031F3B00074A26 /* UIFont+GrabFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3DCF91D031F3B00074A26 /* UIFont+GrabFonts.swift */; };
+		4DE3DCFD1D0320A000074A26 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3DCFC1D0320A000074A26 /* Category.swift */; };
+		4DE3DCFF1D0320AF00074A26 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3DCFE1D0320AF00074A26 /* App.swift */; };
+		4DE3DD011D0327DE00074A26 /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3DD001D0327DE00074A26 /* AppsViewController.swift */; };
+		4DE3DD031D033C2C00074A26 /* AppsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE3DD021D033C2C00074A26 /* AppsCollectionViewCell.swift */; };
+		4DE433471D0239F9003CBA20 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DE433411D0239F9003CBA20 /* Info.plist */; };
+		4DE433481D0239F9003CBA20 /* JLToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE433431D0239F9003CBA20 /* JLToast.swift */; };
+		4DE433491D0239F9003CBA20 /* JLToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE433441D0239F9003CBA20 /* JLToastCenter.swift */; };
+		4DE4334A1D0239F9003CBA20 /* JLToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE433451D0239F9003CBA20 /* JLToastView.swift */; };
+		4DE4334B1D0239F9003CBA20 /* JLToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE433461D0239F9003CBA20 /* JLToastWindow.swift */; };
+		4DE4334E1D024AD3003CBA20 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4334D1D024AD3003CBA20 /* AsyncImageView.swift */; };
+		4DF9DEE41D0232BD0076AA4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9DEE31D0232BD0076AA4B /* AppDelegate.swift */; };
+		4DF9DEE61D0232BD0076AA4B /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9DEE51D0232BD0076AA4B /* CategoriesViewController.swift */; };
+		4DF9DEE91D0232BD0076AA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF9DEE71D0232BD0076AA4B /* Main.storyboard */; };
+		4DF9DEEB1D0232BD0076AA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF9DEEA1D0232BD0076AA4B /* Assets.xcassets */; };
+		4DF9DEEE1D0232BD0076AA4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF9DEEC1D0232BD0076AA4B /* LaunchScreen.storyboard */; };
+		4DF9DEF91D0232BD0076AA4B /* GrabiOSTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9DEF81D0232BD0076AA4B /* GrabiOSTestTests.swift */; };
+		93626D135078DE26726567E6 /* Pods_GrabiOSTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5C1CFBBA06C1A34F51435D /* Pods_GrabiOSTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF9DEF51D0232BD0076AA4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF9DED81D0232BD0076AA4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF9DEDF1D0232BD0076AA4B;
+			remoteInfo = GrabiOSTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E5C1CFBBA06C1A34F51435D /* Pods_GrabiOSTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabiOSTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D57AB8B1D037815007B91FD /* AppDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDetailViewController.swift; path = GrabiOSTest/ViewControllers/AppDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		4D6A4DC91D0258780085FA50 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DE3DCF71D031EF800074A26 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		4DE3DCF91D031F3B00074A26 /* UIFont+GrabFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+GrabFonts.swift"; sourceTree = "<group>"; };
+		4DE3DCFC1D0320A000074A26 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4DE3DCFE1D0320AF00074A26 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		4DE3DD001D0327DE00074A26 /* AppsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
+		4DE3DD021D033C2C00074A26 /* AppsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DE433411D0239F9003CBA20 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE433421D0239F9003CBA20 /* JLToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLToast.h; sourceTree = "<group>"; };
+		4DE433431D0239F9003CBA20 /* JLToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLToast.swift; sourceTree = "<group>"; };
+		4DE433441D0239F9003CBA20 /* JLToastCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLToastCenter.swift; sourceTree = "<group>"; };
+		4DE433451D0239F9003CBA20 /* JLToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLToastView.swift; sourceTree = "<group>"; };
+		4DE433461D0239F9003CBA20 /* JLToastWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLToastWindow.swift; sourceTree = "<group>"; };
+		4DE4334D1D024AD3003CBA20 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		4DF9DEE01D0232BD0076AA4B /* GrabiOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabiOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF9DEE31D0232BD0076AA4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DF9DEE51D0232BD0076AA4B /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		4DF9DEE81D0232BD0076AA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DF9DEEA1D0232BD0076AA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DF9DEED1D0232BD0076AA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DF9DEEF1D0232BD0076AA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF9DEF41D0232BD0076AA4B /* GrabiOSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabiOSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF9DEF81D0232BD0076AA4B /* GrabiOSTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabiOSTestTests.swift; sourceTree = "<group>"; };
+		4DF9DEFA1D0232BD0076AA4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00E8265B59DF49668C8A72A /* Pods-GrabiOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabiOSTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrabiOSTest/Pods-GrabiOSTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DF54022609B089850FA08CB2 /* Pods-GrabiOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabiOSTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrabiOSTest/Pods-GrabiOSTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF9DEDD1D0232BD0076AA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93626D135078DE26726567E6 /* Pods_GrabiOSTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF9DEF11D0232BD0076AA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D6A4DC81D0258330085FA50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D6A4DC91D0258780085FA50 /* CategoriesCollectionViewCell.swift */,
+				4DE3DD021D033C2C00074A26 /* AppsCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DE3DCF61D031EAA00074A26 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3DCF91D031F3B00074A26 /* UIFont+GrabFonts.swift */,
+				4DE3DCF71D031EF800074A26 /* SourceSansPro-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4DE3DCFB1D03206200074A26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3DCFC1D0320A000074A26 /* Category.swift */,
+				4DE3DCFE1D0320AF00074A26 /* App.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DE4333C1D023964003CBA20 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4334C1D024AD3003CBA20 /* AsyncImageView */,
+				4DE433401D0239F9003CBA20 /* JLToast */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		4DE4333D1D02396F003CBA20 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D57AB8B1D037815007B91FD /* AppDetailViewController.swift */,
+				4DF9DEE51D0232BD0076AA4B /* CategoriesViewController.swift */,
+				4DE3DD001D0327DE00074A26 /* AppsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4DE4333E1D023989003CBA20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3DCF61D031EAA00074A26 /* Fonts */,
+				4DE4333F1D023991003CBA20 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4DE4333F1D023991003CBA20 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4DF9DEEA1D0232BD0076AA4B /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4DE433401D0239F9003CBA20 /* JLToast */ = {
+			isa = PBXGroup;
+			children = (
+				4DE433411D0239F9003CBA20 /* Info.plist */,
+				4DE433421D0239F9003CBA20 /* JLToast.h */,
+				4DE433431D0239F9003CBA20 /* JLToast.swift */,
+				4DE433441D0239F9003CBA20 /* JLToastCenter.swift */,
+				4DE433451D0239F9003CBA20 /* JLToastView.swift */,
+				4DE433461D0239F9003CBA20 /* JLToastWindow.swift */,
+			);
+			path = JLToast;
+			sourceTree = "<group>";
+		};
+		4DE4334C1D024AD3003CBA20 /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4334D1D024AD3003CBA20 /* AsyncImageView.swift */,
+			);
+			path = AsyncImageView;
+			sourceTree = "<group>";
+		};
+		4DF9DED71D0232BD0076AA4B = {
+			isa = PBXGroup;
+			children = (
+				4DF9DEE21D0232BD0076AA4B /* GrabiOSTest */,
+				4DF9DEF71D0232BD0076AA4B /* GrabiOSTestTests */,
+				4DF9DEE11D0232BD0076AA4B /* Products */,
+				A01884071E73702249843798 /* Pods */,
+				85BDC6704A937ECB44D61C5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF9DEE11D0232BD0076AA4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DF9DEE01D0232BD0076AA4B /* GrabiOSTest.app */,
+				4DF9DEF41D0232BD0076AA4B /* GrabiOSTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF9DEE21D0232BD0076AA4B /* GrabiOSTest */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3DCFB1D03206200074A26 /* Models */,
+				4D6A4DC81D0258330085FA50 /* Views */,
+				4DE4333E1D023989003CBA20 /* Resources */,
+				4DE4333D1D02396F003CBA20 /* ViewControllers */,
+				4DE4333C1D023964003CBA20 /* Library */,
+				4DF9DEE31D0232BD0076AA4B /* AppDelegate.swift */,
+				4DF9DEE71D0232BD0076AA4B /* Main.storyboard */,
+				4DF9DEEC1D0232BD0076AA4B /* LaunchScreen.storyboard */,
+				4DF9DEEF1D0232BD0076AA4B /* Info.plist */,
+			);
+			path = GrabiOSTest;
+			sourceTree = "<group>";
+		};
+		4DF9DEF71D0232BD0076AA4B /* GrabiOSTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF9DEF81D0232BD0076AA4B /* GrabiOSTestTests.swift */,
+				4DF9DEFA1D0232BD0076AA4B /* Info.plist */,
+			);
+			path = GrabiOSTestTests;
+			sourceTree = "<group>";
+		};
+		85BDC6704A937ECB44D61C5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C1CFBBA06C1A34F51435D /* Pods_GrabiOSTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A01884071E73702249843798 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A00E8265B59DF49668C8A72A /* Pods-GrabiOSTest.debug.xcconfig */,
+				DF54022609B089850FA08CB2 /* Pods-GrabiOSTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DF9DEDF1D0232BD0076AA4B /* GrabiOSTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF9DEFD1D0232BD0076AA4B /* Build configuration list for PBXNativeTarget "GrabiOSTest" */;
+			buildPhases = (
+				BF509235467ED1507A0A4B70 /* [CP] Check Pods Manifest.lock */,
+				4DF9DEDC1D0232BD0076AA4B /* Sources */,
+				4DF9DEDD1D0232BD0076AA4B /* Frameworks */,
+				4DF9DEDE1D0232BD0076AA4B /* Resources */,
+				35C9A02157BF5EF730657824 /* [CP] Embed Pods Frameworks */,
+				865E321CB80BC289AF05C608 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrabiOSTest;
+			productName = GrabiOSTest;
+			productReference = 4DF9DEE01D0232BD0076AA4B /* GrabiOSTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DF9DEF31D0232BD0076AA4B /* GrabiOSTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF9DF001D0232BD0076AA4B /* Build configuration list for PBXNativeTarget "GrabiOSTestTests" */;
+			buildPhases = (
+				4DF9DEF01D0232BD0076AA4B /* Sources */,
+				4DF9DEF11D0232BD0076AA4B /* Frameworks */,
+				4DF9DEF21D0232BD0076AA4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF9DEF61D0232BD0076AA4B /* PBXTargetDependency */,
+			);
+			name = GrabiOSTestTests;
+			productName = GrabiOSTestTests;
+			productReference = 4DF9DEF41D0232BD0076AA4B /* GrabiOSTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DF9DED81D0232BD0076AA4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					4DF9DEDF1D0232BD0076AA4B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4DF9DEF31D0232BD0076AA4B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4DF9DEDF1D0232BD0076AA4B;
+					};
+				};
+			};
+			buildConfigurationList = 4DF9DEDB1D0232BD0076AA4B /* Build configuration list for PBXProject "GrabiOSTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DF9DED71D0232BD0076AA4B;
+			productRefGroup = 4DF9DEE11D0232BD0076AA4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DF9DEDF1D0232BD0076AA4B /* GrabiOSTest */,
+				4DF9DEF31D0232BD0076AA4B /* GrabiOSTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DF9DEDE1D0232BD0076AA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE3DCF81D031EF800074A26 /* SourceSansPro-Regular.ttf in Resources */,
+				4DE433471D0239F9003CBA20 /* Info.plist in Resources */,
+				4DF9DEEE1D0232BD0076AA4B /* LaunchScreen.storyboard in Resources */,
+				4DF9DEEB1D0232BD0076AA4B /* Assets.xcassets in Resources */,
+				4DF9DEE91D0232BD0076AA4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF9DEF21D0232BD0076AA4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35C9A02157BF5EF730657824 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrabiOSTest/Pods-GrabiOSTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865E321CB80BC289AF05C608 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrabiOSTest/Pods-GrabiOSTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF509235467ED1507A0A4B70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF9DEDC1D0232BD0076AA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE433491D0239F9003CBA20 /* JLToastCenter.swift in Sources */,
+				4DF9DEE61D0232BD0076AA4B /* CategoriesViewController.swift in Sources */,
+				4DE3DD011D0327DE00074A26 /* AppsViewController.swift in Sources */,
+				4DE3DCFA1D031F3B00074A26 /* UIFont+GrabFonts.swift in Sources */,
+				4DF9DEE41D0232BD0076AA4B /* AppDelegate.swift in Sources */,
+				4DE3DD031D033C2C00074A26 /* AppsCollectionViewCell.swift in Sources */,
+				4D6A4DCA1D0258780085FA50 /* CategoriesCollectionViewCell.swift in Sources */,
+				4DE4334B1D0239F9003CBA20 /* JLToastWindow.swift in Sources */,
+				4DE433481D0239F9003CBA20 /* JLToast.swift in Sources */,
+				4DE4334A1D0239F9003CBA20 /* JLToastView.swift in Sources */,
+				4DE3DCFF1D0320AF00074A26 /* App.swift in Sources */,
+				4D57AB8C1D037815007B91FD /* AppDetailViewController.swift in Sources */,
+				4DE4334E1D024AD3003CBA20 /* AsyncImageView.swift in Sources */,
+				4DE3DCFD1D0320A000074A26 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF9DEF01D0232BD0076AA4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF9DEF91D0232BD0076AA4B /* GrabiOSTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF9DEF61D0232BD0076AA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF9DEDF1D0232BD0076AA4B /* GrabiOSTest */;
+			targetProxy = 4DF9DEF51D0232BD0076AA4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DF9DEE71D0232BD0076AA4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF9DEE81D0232BD0076AA4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DF9DEEC1D0232BD0076AA4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF9DEED1D0232BD0076AA4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DF9DEFB1D0232BD0076AA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DF9DEFC1D0232BD0076AA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF9DEFE1D0232BD0076AA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00E8265B59DF49668C8A72A /* Pods-GrabiOSTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrabiOSTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancsr.GrabiOSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DF9DEFF1D0232BD0076AA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF54022609B089850FA08CB2 /* Pods-GrabiOSTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrabiOSTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancsr.GrabiOSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DF9DF011D0232BD0076AA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrabiOSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancsr.GrabiOSTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrabiOSTest.app/GrabiOSTest";
+			};
+			name = Debug;
+		};
+		4DF9DF021D0232BD0076AA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrabiOSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancsr.GrabiOSTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrabiOSTest.app/GrabiOSTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF9DEDB1D0232BD0076AA4B /* Build configuration list for PBXProject "GrabiOSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF9DEFB1D0232BD0076AA4B /* Debug */,
+				4DF9DEFC1D0232BD0076AA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF9DEFD1D0232BD0076AA4B /* Build configuration list for PBXNativeTarget "GrabiOSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF9DEFE1D0232BD0076AA4B /* Debug */,
+				4DF9DEFF1D0232BD0076AA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF9DF001D0232BD0076AA4B /* Build configuration list for PBXNativeTarget "GrabiOSTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF9DF011D0232BD0076AA4B /* Debug */,
+				4DF9DF021D0232BD0076AA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DF9DED81D0232BD0076AA4B /* Project object */;
+}

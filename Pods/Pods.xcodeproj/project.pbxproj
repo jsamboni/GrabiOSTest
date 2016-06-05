@@ -1,0 +1,1317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0020ECC0C0B85B4D5CA4BD4102332851 /* RZVerticalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FED19FDA753549FE9DD6CDE02C80908 /* RZVerticalSwipeInteractionController.m */; };
+		015C18018C4AD0344077D77C66669C71 /* RZTransitions.h in Headers */ = {isa = PBXBuildFile; fileRef = FE41A9FFFC210E2F7170E9525497F255 /* RZTransitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0557002BAB24B0C64752B120562C9E35 /* RZShrinkZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BD496AE899520279C516D5F16AF7B0 /* RZShrinkZoomAnimationController.m */; };
+		068C3A3BDE14C996C60EC102A158BB15 /* UIImage+RZTransitionsSnapshotHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D68644544AA0119F19BC5B89AA5AF7 /* UIImage+RZTransitionsSnapshotHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0947309076278BBA1A804ED67FC9DEDF /* RZHorizontalInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35110E4927B82B40DDAAE61148D2C972 /* RZHorizontalInteractionController.m */; };
+		0F9C57BBBE3D927A3C1C3F9FFC086E85 /* CEPinchInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7C23CBD9783DACE343AB6BC9E1F2D /* CEPinchInteractionController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1172737DFFE8656FAE2F6717C3AC4254 /* CENatGeoAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F32371422FC3996B921D6765A0D41C /* CENatGeoAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1190C9524DCF094A4F49C2FB532EA05B /* RZTransitionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BCCE48122243AE29A66306303DCA4 /* RZTransitionsManager.m */; };
+		11BF94C6C39DB1DA33C1B614D23B6A1A /* CEFoldAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF3E2982E656E6F4258FABA2B8CD941 /* CEFoldAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1480F4923DBBF217F60572EEECB4027C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C92B22E43A784C653E9509430A39D4 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14A26E5EDE2D7DE1F80FD357ABC0924B /* CECardsAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 655B280EE990735563C83743F44CFD6C /* CECardsAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		174202BD6AE0E4A41F5CE66E975EAE52 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE2C5807B290DAEEB51620A08AC238 /* UIRefreshControl+AFNetworking.m */; };
+		184F031D11682924722B7B9A1BAAFE8A /* CECubeAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C0C82F9CB6B0FA82FE43ECFAA9619E /* CECubeAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		192AC43D2F848129D2CAC66DAAF6CA35 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44578A5153D11FA06E45CB7CBB7E930A /* Security.framework */; };
+		1E5B8F12ED7CC40ECDB9B1F755F387E5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 786EC37612066D473FF8080B0E6F3086 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20607BE2B1E5F31765026E5AC64DB27D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8A5745AA5B942AD9C45C471FED01E2 /* AFSecurityPolicy.m */; };
+		20EE8030FCF2402DAC7F1C9B9DDAEF79 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D42866A898837801A767A081D9B184 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		217A4C84EC2EA16FBDFE5F8C64C9820D /* RZZoomBlurAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA38C2C8516D4450324AB9BF198A32B /* RZZoomBlurAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C00D366F0BFFCB6880E34C2B990C1A /* UIImage+RZTransitionsFastImageBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDAEBF1D7E1511CCF41300C0721A633 /* UIImage+RZTransitionsFastImageBlur.m */; };
+		28E2DA096500D9720031B7B7943BAF61 /* UIImage+RZTransitionsFastImageBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = 54BD68ED6D8918EAF8853AF5D5EE8863 /* UIImage+RZTransitionsFastImageBlur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC21B59607ABA3C372E076401A61F63 /* RZTransitionAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2F49B3F8536213A71FFCD68850EBA7 /* RZTransitionAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8BD9F8C2ADCE3306553E679BB6B7D1 /* RZTransitionsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5B4A065FE8289E94F7E83B493E9EDC /* RZTransitionsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8A32ED46194EDBE22146271F6D26DE /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA7B46B23C734BB81BED9EEDB17CC9 /* UIImageView+AFNetworking.m */; };
+		365A320785AF847A96E8BE31945E3602 /* RZZoomAlphaAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8094B41449D4605E2CB0812AC7A23 /* RZZoomAlphaAnimationController.m */; };
+		36EA1D7977D21EDE48190A866BF2693C /* RZShrinkZoomAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D172EB7F557C647F1382C02133E8C2A /* RZShrinkZoomAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3706D58F7925DD684A8DEE261B78A6CE /* CECardsAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94660B9381DCD486D4224015AA7768C2 /* CECardsAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3BB935BBC4F04CD697002748D6542AE2 /* CEBaseInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DF51C25E4FABDFAF04C3250B61AF21 /* CEBaseInteractionController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3C8CD1E5B72CF4A01364F899E22655EF /* RZTransitionsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DA9CC7B00FD923F61FA53255617B0F /* RZTransitionsNavigationController.m */; };
+		3D2789FC760A97301909F0B1201626CD /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A12A5FEFB9EFCAE04199FB3A61555F /* AFNetworking-dummy.m */; };
+		3F1BC9BAFFEEABB1ABC7614DF0FC97D5 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F68E5F39B252E4617B42ED2131D437 /* AFAutoPurgingImageCache.m */; };
+		41E201CE0F982125B5BB83C95BD9D2F3 /* CEExplodeAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E61BB413F067853C9E8FB09E5C018DFA /* CEExplodeAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		456515BEDDE9CBD5A74AE646BA0285ED /* RZTransitionInteractionControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C07E4B9F2DEFA47D634161A67F1F0 /* RZTransitionInteractionControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		457F0EF8F3C965B8BC2E2CDAC3C1447C /* RZSegmentControlMoveFadeAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA238833A89F93DFBAFF25E5E8DF0B3 /* RZSegmentControlMoveFadeAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45C48532156413041F50F1C34F1334A9 /* UIImage+RZTransitionsSnapshotHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9DC9418E3C7FCFAADB086505F880F8 /* UIImage+RZTransitionsSnapshotHelpers.m */; };
+		46E9E8C9CBB6F6571BAAEDA0CC4C5EEC /* RZZoomBlurAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DDD3DEDC91E9F3B9EF0416A640F3C4 /* RZZoomBlurAnimationController.m */; };
+		4C3E2FB6A404B1E873CEDA297DBA7A69 /* NSObject+RZTransitionsViewHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E4B450DE325F9D5AF791E3E09F14A /* NSObject+RZTransitionsViewHelpers.m */; };
+		4ECA9BE68D373E094EFA019CC4EA1720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CCCCEB9EC1F313B446B38E47A2DC6 /* CoreGraphics.framework */; };
+		4FE3D0FC60D1370E831CBFF9680FA8EB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B49BEEEF0599D9A8A5C7E71FF1FC3 /* MobileCoreServices.framework */; };
+		512F6EE8AB30FC37DB4C14FECCB8B1A6 /* RZRectZoomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922D9A52CAB43EAC43D90CE248AB9DB9 /* RZRectZoomAnimationController.m */; };
+		54E47078C9779A19AD7AB69E99542046 /* RZUniqueTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A979C6512A9B6789ABB02B3A687C3991 /* RZUniqueTransition.m */; };
+		560698A4D707DCBCC1C8F98BC9B89B23 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C74AB42F93C49C31BD7C8C9351B5ED66 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5808B477EFF509D810B5CDCFDC944F80 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA9975E26F885BEF21E4C425267F876 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C878CA17E96D59BF2872B11E1827D1C /* RZCirclePushAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = AF957F3E8A9ECAD460C24383B989CACA /* RZCirclePushAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FF6453E55785669885F626B853FD2AA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7DC18AB17313B6545FDFE08B87679C /* UIProgressView+AFNetworking.m */; };
+		60558695D738FD36218F7D3DDFF598F0 /* CECubeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6CEC0A63EC0C8E6FBBC96C5E472997 /* CECubeAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		60E3009342BEE96D32C546BE2DB60052 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8B74CE1AE8B2E13A3281B09F8F25AA /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		659960F7E28E993E08CCC1E8A383E710 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C279EC1B5ABF57F912193D113C9554 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67726D6FCA121728D7122DB855D70670 /* CEHorizontalSwipeInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = AB452146BFCEADFBF11C2441583CA614 /* CEHorizontalSwipeInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68152D921ABF6A423C192C04FDF94F0F /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7375751660D43001E468334FAD50215B /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688E37A2E29646148D380D9034875174 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DD83B3A88233A4EFA458D74866100D /* SystemConfiguration.framework */; };
+		68A38977EBAE334DC3C22386D00D2622 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FA80F30E0CB375C3417F8FDF446C2E /* AFNetworkReachabilityManager.m */; };
+		6B747A2A528A63B958DC8D9B0853B979 /* RZBaseSwipeInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EFCA55436B6DF9E777F0005ABBA46A2 /* RZBaseSwipeInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B9E244466D7440B21CA5879E7DF1FA0 /* CENatGeoAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 643A0CEB07526F10A7C2E692E4E6740D /* CENatGeoAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C0DC225FFD47294DC02802D51CC4342 /* CEFlipAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351EAE6C5FBBA02D00C5BA55B471FABB /* CEFlipAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6CECC6F04DCA395D38E4F3964FEEE02C /* RZOverscrollInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BB488D31385154A5F4D559BB31B56C /* RZOverscrollInteractionController.m */; };
+		6ED4ABEE8A5F51F5ECB59FA1781D29C6 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D6117A5CA2B769EB145DBD3EEEB00F /* UIActivityIndicatorView+AFNetworking.m */; };
+		6FB148A708C6536C61F8895A8DCBE952 /* RZCardSlideAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A7812EEED00A2DD95324CA40392AC /* RZCardSlideAnimationController.m */; };
+		707B1A7541C8DBDDE8C27896A61370BE /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF2287589BB3EBC35698E730949635B /* AFURLSessionManager.m */; };
+		70F58F96897D4FE90B2EFDA063982619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */; };
+		72BED9EF487E90F1679B688BC6AE7263 /* RZRectZoomAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1236223B3086A4BE8B8922E7A7A73044 /* RZRectZoomAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7332F15718920917F544F35CE2C038AA /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B946570CB39FBC0E32446ED6F01DAF /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7525431F7FB7B672F6A041A3F20F892C /* CETurnAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A58E470441C196464562C0A05CC157BC /* CETurnAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76D777DE893BDB2B7B471E3B56535A02 /* CETurnAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AAB4F6A28E7AA8F4B5D65876233990 /* CETurnAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		78A0D22BB086F8D73E9BFE6FEE3D8D0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE339893A9300FDD81EEF4C7035E7814 /* UIKit.framework */; };
+		79FB6A6AD021A9AACFAF06B34F6714B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CCCCEB9EC1F313B446B38E47A2DC6 /* CoreGraphics.framework */; };
+		7F2219336DAE7B64466917A429357B5E /* RZVerticalSwipeInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B93BC12CC69AC4248C25E14532AA258 /* RZVerticalSwipeInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B617F8D26BB10C5726D75E85D21EB7 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF4C2DF82B719757E09F426F9A5FC1A /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81D03DC8B31873C3509CAB95EDD0B58C /* CEPortalAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822961B637CB734E2A8071D2B6F12763 /* CEPortalAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		829D81219849EC8852D066F6F142D082 /* RZZoomAlphaAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB960D3B63EAE71E0175F8F5F496EC7E /* RZZoomAlphaAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82ABE1F89C94ED325425A38239BCDB73 /* Pods-GrabiOSTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A12047C10B4A4651CBFAC8DFB22691 /* Pods-GrabiOSTest-dummy.m */; };
+		837776761FA4020E2081183E058B8F63 /* CEVerticalSwipeInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF10A800ABD2B1E75A370B597D0EE99 /* CEVerticalSwipeInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		860076B7656F9ED0C0F6E2F7765F0C7A /* CEPanAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B7430B9FCE4D9D9CE0295493F8EFEE /* CEPanAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87A3D65AA9023F64E8C954C7972FB75E /* VCTransitionsLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3D9235F1C8102EFE2F3D8DC5D2892B /* VCTransitionsLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B9D024A027439DAE8F6BF7078C68AE /* CEFlipAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D01FB7E05F944CCD780CEA436B7CA48D /* CEFlipAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD20BEB89E3336C87DD3DADB7136C63 /* RZCardSlideAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4739E0A49AB938C253697A7DDFA765BC /* RZCardSlideAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B4D73A11F24BDB8E95A10D638BBC004 /* RZCirclePushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF508EF439BE183814BF9819D4ADF3F /* RZCirclePushAnimationController.m */; };
+		8B80B80192A37BE8607124157BF35B25 /* RZTransitionsAnimationControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7206E9E47836D270E7A166409B86B180 /* RZTransitionsAnimationControllers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DF632FAF346D1C0996BFB2273523BF9 /* RZTransitions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9FFC5A4E1C8C391126F00D7BB254E8 /* RZTransitions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E927B5A659B140EEA5EC230F4C27D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */; };
+		9CE293D5A6DFB848BBA3B94B08F204D0 /* CEPortalAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AFBBE2E1347E62E6F1E9F9492A6E2F /* CEPortalAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E1E90DED74B73ECE53C9AD76DE53E2D /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B537DFF32152DEBC84212F145A15EB5 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A462945883F7729B185B64B679A6BFBE /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF7A350BB4F40A3A653AF61C9ED6D55 /* UIWebView+AFNetworking.m */; };
+		A6C6019D45BE62C61210A9CC619368EF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 306ADCAF8A6DE193F9FF711FDBA1C901 /* AFNetworkActivityIndicatorManager.m */; };
+		AB39AC9746E7575D7449700475E41B0B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A65140A4D6CB718DB9916EDCB9A4EAB /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE2A07407FB50BA249984DC0620E84C0 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DAD48186789F8A51DEB2D9453876262 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF03C11A1FAC8132AD3749D8F541701A /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D1590117200F0256E6C42569FACD832D /* UIButton+AFNetworking.m */; };
+		B5852322ADE88AAD56EE042B80BA81E4 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C59F2BAD1048194744ADFD329D7AF971 /* AFURLResponseSerialization.m */; };
+		B732B220989E69972EC7CD7EFF966765 /* CEBaseInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = F69B950BFF1E35EE05A4D44B221D8F58 /* CEBaseInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8BE53DD7FB2397BCBE41AD2A439E70B /* CEVerticalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F515570FA15743A7DC4DF5EF4D88A5BB /* CEVerticalSwipeInteractionController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B902BCE1E7E6E99AA7CA4E471332DAFE /* RZTransitionsInteractionControllers.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA59CDDAE4AC252763E6A43F20352D2 /* RZTransitionsInteractionControllers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B99FAFBBC58F176BCBAA61124A21C14B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */; };
+		BC53053AFCE46D9F6AEA54C392B318B0 /* CEFoldAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A768478280C19D0FB59FD1B3E5779643 /* CEFoldAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BFB44D6747DB81E7A80DF68BF36DA131 /* NSObject+RZTransitionsViewHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6BB9A1818AAC561E721908D73C9BB7 /* NSObject+RZTransitionsViewHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2DD28375E1F0B1D0D1D2E4E607C499F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1A65AD0460BA4992CA3FBD018F9153 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C48441C4DA7F9740C9BA4940C11F9AC8 /* CEPanAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CA3A5A667544AD27C58C1947A42481 /* CEPanAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C4BCED6BE80E3C35AA57C3006E6D55C2 /* RZZoomPushAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F170D711C06ECF3CC5CF067DAB399A /* RZZoomPushAnimationController.m */; };
+		C55DA5F185DAA1E02A9F11FC9C13323A /* VCTransitionsLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF19C275EACC71AE90C1EB65E952AC8 /* VCTransitionsLibrary-dummy.m */; };
+		C6354FEC7728A4C86DAD8092509BA7D4 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 964B8C6C9235D2BF5D7F903292210CED /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82A64B0F0147A4A897896ABB7F53C69 /* CEReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A67CBC23824B18CEF16BB6F9F132926 /* CEReversibleAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C96E3DBD868516CDC3FC93A5555EB8D9 /* RZAnimationControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6035E7E7791ADCFEF32316542E82CD81 /* RZAnimationControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAC483EF637FB4A2C2E2FC75BA631B87 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD86ECD085053500B9C92CBBCFCFAAE /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD727AA00A7070F5A2D7BBFF6A7311BD /* CEReversibleAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 124A92875CBAFC8F44260CA39EDBAD84 /* CEReversibleAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFA8D6B529A0EBFF0316F2629AB2556E /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 898B1D16F88B873E45687201742A1BA4 /* AFImageDownloader.m */; };
+		D0BD7DF3157C41C9BC5077FBDBC2DE97 /* RZPinchInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49404FB3CCA855A8CC7DA7B5F635FDB2 /* RZPinchInteractionController.m */; };
+		D42476FD1CFAEB86DF6BBEDAEE2B77E9 /* CEPinchInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC2860034332320005FFC17032CF6B5 /* CEPinchInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5A59DA44259C1D6E77C02C2112B48E8 /* CEHorizontalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573E9D494AFC02FA21511E522E97FF64 /* CEHorizontalSwipeInteractionController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D66A371AB9FEBFF41E42AFA3BF810058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */; };
+		D8F003CE1F1CB7D7C876532CE9C84E04 /* RZBaseSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B55C19104D71E0971A374698EBC0E2 /* RZBaseSwipeInteractionController.m */; };
+		D9F4E833E37B611B432F6B5D7072DDA2 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6F1CEC63D39B5A0AB2B10FC31161D1 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC96ED794C817C85F07EDB2A506118AE /* RZHorizontalInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA87287E058E03537C46298E8F3CD24 /* RZHorizontalInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD1C620BD65022649A5687B070322628 /* RZPinchInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDFC7E5F3D5762FD7C795B4E08A2D63 /* RZPinchInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD1CDDDD44C355BB690F4B1222B3548B /* CECrossfadeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9302213044D2E27B26EAA0F1251104A /* CECrossfadeAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DFFA215EEAA8DDBD540076927535275C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA03DBB0B7FF2DDB9E6FEAF7E6E1BF /* AFURLRequestSerialization.m */; };
+		E0D4045AC4C1B41917FCA23A042D18B2 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC79C1ADC4D7C4B8206776477479A86 /* AFHTTPSessionManager.m */; };
+		E18CAB2CAED34E03B35E83971714A222 /* Pods-GrabiOSTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DD2CEBB3F16FC6A603F949B964517C /* Pods-GrabiOSTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6170B33537BEB14A2E4683853D4D182 /* RZSegmentControlMoveFadeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D87DBCE9BD78A87BBA379ACDADAFC5 /* RZSegmentControlMoveFadeAnimationController.m */; };
+		E6CFFA92B6783191532B2583C9777F3C /* RZUniqueTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA075D0B489586938D63B1C03B987BD /* RZUniqueTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7988678C81F7CCB95D239375FC6986D /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EF74FD5B3CB462FE55DE8E4FB2B93978 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7CADE416A78A1CD6936018A6695126 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 627CA144B73225E15607B60DEE8DEEC8 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F254595FCDB0533D5C6B5AB78EA3A0D0 /* RZTransitionsNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E65A5263EDE6837F089BC1691A114DF /* RZTransitionsNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F38FB5ED446F91D8A125F74AC4694B76 /* RZTransitions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FEAC38FD81810AF5A4706CFDB9B917 /* RZTransitions-dummy.m */; };
+		F9B8684D48A137938148376854B2FF02 /* RZZoomPushAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9760122662351CA7DD0E21D5E44BA1 /* RZZoomPushAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBC04BAD50E6A4671814C735B446EEF8 /* RZOverscrollInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF69F32C3D81DCC365135527ECE1B605 /* RZOverscrollInteractionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC0CAD829DD3B2007DFEBE9503366E74 /* CEExplodeAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FCDCDDFE0E312B832250BE4A0133FF /* CEExplodeAnimationController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FCFD88EFD7C300189F45BC0E05CACC5C /* CECrossfadeAnimationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F53EA1C3BA6F93D7D9805146FABE0491 /* CECrossfadeAnimationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B47CF41C635C678D497FF20169D04087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A768069D80E3F8A56853A4116E4842DD;
+			remoteInfo = RZTransitions;
+		};
+		B5B5DAA132B60C2E7F2F08278A981B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD6B31B080E2657E817F3D437BD9A31;
+			remoteInfo = VCTransitionsLibrary;
+		};
+		EA2E8B8AFA59B3A27D12B91370D4F1AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3436CEA5C3D39764C5F54374794ECB;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C279EC1B5ABF57F912193D113C9554 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		0172EE0BE9CA3C74BCE2B90F2A3D62B1 /* Pods-GrabiOSTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrabiOSTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		01BD496AE899520279C516D5F16AF7B0 /* RZShrinkZoomAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZShrinkZoomAnimationController.m; path = RZTransitions/Transitions/RZShrinkZoomAnimationController.m; sourceTree = "<group>"; };
+		02DA9CC7B00FD923F61FA53255617B0F /* RZTransitionsNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZTransitionsNavigationController.m; path = RZTransitions/Components/RZTransitionsNavigationController.m; sourceTree = "<group>"; };
+		064135FA0551CF1CD8D0E9EAD21EE142 /* Pods-GrabiOSTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrabiOSTest-resources.sh"; sourceTree = "<group>"; };
+		0A6CEC0A63EC0C8E6FBBC96C5E472997 /* CECubeAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CECubeAnimationController.m; path = AnimationControllers/CECubeAnimationController.m; sourceTree = "<group>"; };
+		0D172EB7F557C647F1382C02133E8C2A /* RZShrinkZoomAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZShrinkZoomAnimationController.h; path = RZTransitions/Transitions/RZShrinkZoomAnimationController.h; sourceTree = "<group>"; };
+		0DDAEBF1D7E1511CCF41300C0721A633 /* UIImage+RZTransitionsFastImageBlur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RZTransitionsFastImageBlur.m"; path = "RZTransitions/Utilities/UIImage+RZTransitionsFastImageBlur.m"; sourceTree = "<group>"; };
+		1154663F9E0E66CE2EB4DBF832B598CD /* RZTransitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RZTransitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1236223B3086A4BE8B8922E7A7A73044 /* RZRectZoomAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZRectZoomAnimationController.h; path = RZTransitions/Transitions/RZRectZoomAnimationController.h; sourceTree = "<group>"; };
+		124A92875CBAFC8F44260CA39EDBAD84 /* CEReversibleAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEReversibleAnimationController.h; path = AnimationControllers/CEReversibleAnimationController.h; sourceTree = "<group>"; };
+		14D42866A898837801A767A081D9B184 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		15AAB4F6A28E7AA8F4B5D65876233990 /* CETurnAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CETurnAnimationController.m; path = AnimationControllers/CETurnAnimationController.m; sourceTree = "<group>"; };
+		16A12047C10B4A4651CBFAC8DFB22691 /* Pods-GrabiOSTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrabiOSTest-dummy.m"; sourceTree = "<group>"; };
+		19DF51C25E4FABDFAF04C3250B61AF21 /* CEBaseInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEBaseInteractionController.m; path = InteractionControllers/CEBaseInteractionController.m; sourceTree = "<group>"; };
+		1B537DFF32152DEBC84212F145A15EB5 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		23DD2B82203A7BB7854167367EC1BD34 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DDD3DEDC91E9F3B9EF0416A640F3C4 /* RZZoomBlurAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZZoomBlurAnimationController.m; path = RZTransitions/Transitions/RZZoomBlurAnimationController.m; sourceTree = "<group>"; };
+		2A558A81A3F71AD52C56B3FFA4CD8624 /* RZTransitions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RZTransitions.xcconfig; sourceTree = "<group>"; };
+		2AA59CDDAE4AC252763E6A43F20352D2 /* RZTransitionsInteractionControllers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZTransitionsInteractionControllers.h; path = RZTransitions/Interactors/RZTransitionsInteractionControllers.h; sourceTree = "<group>"; };
+		2DBA7B46B23C734BB81BED9EEDB17CC9 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		2DCA36687775A2FBB74F7CA910B53F08 /* Pods-GrabiOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrabiOSTest.release.xcconfig"; sourceTree = "<group>"; };
+		2E5B4A065FE8289E94F7E83B493E9EDC /* RZTransitionsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZTransitionsManager.h; path = RZTransitions/Managers/RZTransitionsManager.h; sourceTree = "<group>"; };
+		2EF3E2982E656E6F4258FABA2B8CD941 /* CEFoldAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEFoldAnimationController.h; path = AnimationControllers/CEFoldAnimationController.h; sourceTree = "<group>"; };
+		2FA238833A89F93DFBAFF25E5E8DF0B3 /* RZSegmentControlMoveFadeAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZSegmentControlMoveFadeAnimationController.h; path = RZTransitions/Transitions/RZSegmentControlMoveFadeAnimationController.h; sourceTree = "<group>"; };
+		301915171B54D0590EBB42E81AA9BF5E /* VCTransitionsLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VCTransitionsLibrary.modulemap; sourceTree = "<group>"; };
+		306ADCAF8A6DE193F9FF711FDBA1C901 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		35110E4927B82B40DDAAE61148D2C972 /* RZHorizontalInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZHorizontalInteractionController.m; path = RZTransitions/Interactors/RZHorizontalInteractionController.m; sourceTree = "<group>"; };
+		351EAE6C5FBBA02D00C5BA55B471FABB /* CEFlipAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEFlipAnimationController.m; path = AnimationControllers/CEFlipAnimationController.m; sourceTree = "<group>"; };
+		35F867A726B2E6918B85A9B1D4A23F2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36AFBBE2E1347E62E6F1E9F9492A6E2F /* CEPortalAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEPortalAnimationController.h; path = AnimationControllers/CEPortalAnimationController.h; sourceTree = "<group>"; };
+		3A67CBC23824B18CEF16BB6F9F132926 /* CEReversibleAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEReversibleAnimationController.m; path = AnimationControllers/CEReversibleAnimationController.m; sourceTree = "<group>"; };
+		3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BA87287E058E03537C46298E8F3CD24 /* RZHorizontalInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZHorizontalInteractionController.h; path = RZTransitions/Interactors/RZHorizontalInteractionController.h; sourceTree = "<group>"; };
+		3DAD48186789F8A51DEB2D9453876262 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		3F1A65AD0460BA4992CA3FBD018F9153 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		3F6CCCCEB9EC1F313B446B38E47A2DC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3F7BCCE48122243AE29A66306303DCA4 /* RZTransitionsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZTransitionsManager.m; path = RZTransitions/Managers/RZTransitionsManager.m; sourceTree = "<group>"; };
+		44578A5153D11FA06E45CB7CBB7E930A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		46C0C82F9CB6B0FA82FE43ECFAA9619E /* CECubeAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CECubeAnimationController.h; path = AnimationControllers/CECubeAnimationController.h; sourceTree = "<group>"; };
+		4739E0A49AB938C253697A7DDFA765BC /* RZCardSlideAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZCardSlideAnimationController.h; path = RZTransitions/Transitions/RZCardSlideAnimationController.h; sourceTree = "<group>"; };
+		49404FB3CCA855A8CC7DA7B5F635FDB2 /* RZPinchInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZPinchInteractionController.m; path = RZTransitions/Interactors/RZPinchInteractionController.m; sourceTree = "<group>"; };
+		4A9FFC5A4E1C8C391126F00D7BB254E8 /* RZTransitions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RZTransitions-umbrella.h"; sourceTree = "<group>"; };
+		4AA7C23CBD9783DACE343AB6BC9E1F2D /* CEPinchInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEPinchInteractionController.m; path = InteractionControllers/CEPinchInteractionController.m; sourceTree = "<group>"; };
+		4EFCA55436B6DF9E777F0005ABBA46A2 /* RZBaseSwipeInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZBaseSwipeInteractionController.h; path = RZTransitions/Interactors/RZBaseSwipeInteractionController.h; sourceTree = "<group>"; };
+		54BD68ED6D8918EAF8853AF5D5EE8863 /* UIImage+RZTransitionsFastImageBlur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RZTransitionsFastImageBlur.h"; path = "RZTransitions/Utilities/UIImage+RZTransitionsFastImageBlur.h"; sourceTree = "<group>"; };
+		573E9D494AFC02FA21511E522E97FF64 /* CEHorizontalSwipeInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEHorizontalSwipeInteractionController.m; path = InteractionControllers/CEHorizontalSwipeInteractionController.m; sourceTree = "<group>"; };
+		57CA3A5A667544AD27C58C1947A42481 /* CEPanAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEPanAnimationController.m; path = AnimationControllers/CEPanAnimationController.m; sourceTree = "<group>"; };
+		5BA9975E26F885BEF21E4C425267F876 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		5C27C467240D1CABB74D1BFD23404078 /* RZTransitions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RZTransitions-prefix.pch"; sourceTree = "<group>"; };
+		5EC79C1ADC4D7C4B8206776477479A86 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		6035E7E7791ADCFEF32316542E82CD81 /* RZAnimationControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZAnimationControllerProtocol.h; path = RZTransitions/Transitions/RZAnimationControllerProtocol.h; sourceTree = "<group>"; };
+		627CA144B73225E15607B60DEE8DEEC8 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		62FA80F30E0CB375C3417F8FDF446C2E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		638C07E4B9F2DEFA47D634161A67F1F0 /* RZTransitionInteractionControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZTransitionInteractionControllerProtocol.h; path = RZTransitions/Interactors/RZTransitionInteractionControllerProtocol.h; sourceTree = "<group>"; };
+		63F170D711C06ECF3CC5CF067DAB399A /* RZZoomPushAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZZoomPushAnimationController.m; path = RZTransitions/Transitions/RZZoomPushAnimationController.m; sourceTree = "<group>"; };
+		643A0CEB07526F10A7C2E692E4E6740D /* CENatGeoAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CENatGeoAnimationController.h; path = AnimationControllers/CENatGeoAnimationController.h; sourceTree = "<group>"; };
+		655B280EE990735563C83743F44CFD6C /* CECardsAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CECardsAnimationController.h; path = AnimationControllers/CECardsAnimationController.h; sourceTree = "<group>"; };
+		66E042645F74EDA8E1A02C9023854B65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6787BD51860A752A44FD2479759B8AF6 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		68790E6AC535DF21446268705AE6F801 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A65140A4D6CB718DB9916EDCB9A4EAB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		6BF10A800ABD2B1E75A370B597D0EE99 /* CEVerticalSwipeInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEVerticalSwipeInteractionController.h; path = InteractionControllers/CEVerticalSwipeInteractionController.h; sourceTree = "<group>"; };
+		6DF7A350BB4F40A3A653AF61C9ED6D55 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		6E65A5263EDE6837F089BC1691A114DF /* RZTransitionsNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZTransitionsNavigationController.h; path = RZTransitions/Components/RZTransitionsNavigationController.h; sourceTree = "<group>"; };
+		6FED19FDA753549FE9DD6CDE02C80908 /* RZVerticalSwipeInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZVerticalSwipeInteractionController.m; path = RZTransitions/Interactors/RZVerticalSwipeInteractionController.m; sourceTree = "<group>"; };
+		7206E9E47836D270E7A166409B86B180 /* RZTransitionsAnimationControllers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZTransitionsAnimationControllers.h; path = RZTransitions/Transitions/RZTransitionsAnimationControllers.h; sourceTree = "<group>"; };
+		7375751660D43001E468334FAD50215B /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		743EA3E77AC87ED2963202CAC47DAC02 /* Pods-GrabiOSTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrabiOSTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		76D6117A5CA2B769EB145DBD3EEEB00F /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		786EC37612066D473FF8080B0E6F3086 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		7DBD9424FABACD057023C970488858E3 /* RZTransitions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RZTransitions.modulemap; sourceTree = "<group>"; };
+		7EF19C275EACC71AE90C1EB65E952AC8 /* VCTransitionsLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VCTransitionsLibrary-dummy.m"; sourceTree = "<group>"; };
+		81A3CA446534A1CD9C8AA0CF071769EE /* Pods-GrabiOSTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GrabiOSTest.modulemap"; sourceTree = "<group>"; };
+		81BB488D31385154A5F4D559BB31B56C /* RZOverscrollInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZOverscrollInteractionController.m; path = RZTransitions/Interactors/RZOverscrollInteractionController.m; sourceTree = "<group>"; };
+		822961B637CB734E2A8071D2B6F12763 /* CEPortalAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEPortalAnimationController.m; path = AnimationControllers/CEPortalAnimationController.m; sourceTree = "<group>"; };
+		84AE2C5807B290DAEEB51620A08AC238 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		88B55C19104D71E0971A374698EBC0E2 /* RZBaseSwipeInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZBaseSwipeInteractionController.m; path = RZTransitions/Interactors/RZBaseSwipeInteractionController.m; sourceTree = "<group>"; };
+		893A7812EEED00A2DD95324CA40392AC /* RZCardSlideAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZCardSlideAnimationController.m; path = RZTransitions/Transitions/RZCardSlideAnimationController.m; sourceTree = "<group>"; };
+		898B1D16F88B873E45687201742A1BA4 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		8A7DC18AB17313B6545FDFE08B87679C /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		8B3D9235F1C8102EFE2F3D8DC5D2892B /* VCTransitionsLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VCTransitionsLibrary-umbrella.h"; sourceTree = "<group>"; };
+		8E8B74CE1AE8B2E13A3281B09F8F25AA /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		922D9A52CAB43EAC43D90CE248AB9DB9 /* RZRectZoomAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZRectZoomAnimationController.m; path = RZTransitions/Transitions/RZRectZoomAnimationController.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94660B9381DCD486D4224015AA7768C2 /* CECardsAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CECardsAnimationController.m; path = AnimationControllers/CECardsAnimationController.m; sourceTree = "<group>"; };
+		964B8C6C9235D2BF5D7F903292210CED /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		97DD2CEBB3F16FC6A603F949B964517C /* Pods-GrabiOSTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrabiOSTest-umbrella.h"; sourceTree = "<group>"; };
+		9B93BC12CC69AC4248C25E14532AA258 /* RZVerticalSwipeInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZVerticalSwipeInteractionController.h; path = RZTransitions/Interactors/RZVerticalSwipeInteractionController.h; sourceTree = "<group>"; };
+		9D6F1CEC63D39B5A0AB2B10FC31161D1 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		9DAC942A838F6E6D9B5A4339D8E3E6D9 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		9FC8094B41449D4605E2CB0812AC7A23 /* RZZoomAlphaAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZZoomAlphaAnimationController.m; path = RZTransitions/Transitions/RZZoomAlphaAnimationController.m; sourceTree = "<group>"; };
+		9FDFC7E5F3D5762FD7C795B4E08A2D63 /* RZPinchInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZPinchInteractionController.h; path = RZTransitions/Interactors/RZPinchInteractionController.h; sourceTree = "<group>"; };
+		A3FEAC38FD81810AF5A4706CFDB9B917 /* RZTransitions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RZTransitions-dummy.m"; sourceTree = "<group>"; };
+		A58E470441C196464562C0A05CC157BC /* CETurnAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CETurnAnimationController.h; path = AnimationControllers/CETurnAnimationController.h; sourceTree = "<group>"; };
+		A5D87DBCE9BD78A87BBA379ACDADAFC5 /* RZSegmentControlMoveFadeAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZSegmentControlMoveFadeAnimationController.m; path = RZTransitions/Transitions/RZSegmentControlMoveFadeAnimationController.m; sourceTree = "<group>"; };
+		A6F32371422FC3996B921D6765A0D41C /* CENatGeoAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CENatGeoAnimationController.m; path = AnimationControllers/CENatGeoAnimationController.m; sourceTree = "<group>"; };
+		A768478280C19D0FB59FD1B3E5779643 /* CEFoldAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEFoldAnimationController.m; path = AnimationControllers/CEFoldAnimationController.m; sourceTree = "<group>"; };
+		A979C6512A9B6789ABB02B3A687C3991 /* RZUniqueTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZUniqueTransition.m; path = RZTransitions/Data/RZUniqueTransition.m; sourceTree = "<group>"; };
+		AAF508EF439BE183814BF9819D4ADF3F /* RZCirclePushAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZCirclePushAnimationController.m; path = RZTransitions/Transitions/RZCirclePushAnimationController.m; sourceTree = "<group>"; };
+		AB452146BFCEADFBF11C2441583CA614 /* CEHorizontalSwipeInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEHorizontalSwipeInteractionController.h; path = InteractionControllers/CEHorizontalSwipeInteractionController.h; sourceTree = "<group>"; };
+		AB4B6C94F5DB985916BD53D3969043F9 /* VCTransitionsLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VCTransitionsLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC2860034332320005FFC17032CF6B5 /* CEPinchInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEPinchInteractionController.h; path = InteractionControllers/CEPinchInteractionController.h; sourceTree = "<group>"; };
+		AF957F3E8A9ECAD460C24383B989CACA /* RZCirclePushAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZCirclePushAnimationController.h; path = RZTransitions/Transitions/RZCirclePushAnimationController.h; sourceTree = "<group>"; };
+		B5DA03DBB0B7FF2DDB9E6FEAF7E6E1BF /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B6DD83B3A88233A4EFA458D74866100D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		B99B49BEEEF0599D9A8A5C7E71FF1FC3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		B9D68644544AA0119F19BC5B89AA5AF7 /* UIImage+RZTransitionsSnapshotHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RZTransitionsSnapshotHelpers.h"; path = "RZTransitions/Utilities/UIImage+RZTransitionsSnapshotHelpers.h"; sourceTree = "<group>"; };
+		BD9760122662351CA7DD0E21D5E44BA1 /* RZZoomPushAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZZoomPushAnimationController.h; path = RZTransitions/Transitions/RZZoomPushAnimationController.h; sourceTree = "<group>"; };
+		BE339893A9300FDD81EEF4C7035E7814 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFC3FBE9D31EA7D6079D97548522B43A /* VCTransitionsLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VCTransitionsLibrary-prefix.pch"; sourceTree = "<group>"; };
+		C1F68E5F39B252E4617B42ED2131D437 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		C3C91FE7242AA56CDDA9929AD9331383 /* Pods-GrabiOSTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrabiOSTest-frameworks.sh"; sourceTree = "<group>"; };
+		C59F2BAD1048194744ADFD329D7AF971 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C74AB42F93C49C31BD7C8C9351B5ED66 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		CD6BB9A1818AAC561E721908D73C9BB7 /* NSObject+RZTransitionsViewHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RZTransitionsViewHelpers.h"; path = "RZTransitions/Utilities/NSObject+RZTransitionsViewHelpers.h"; sourceTree = "<group>"; };
+		CF69F32C3D81DCC365135527ECE1B605 /* RZOverscrollInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZOverscrollInteractionController.h; path = RZTransitions/Interactors/RZOverscrollInteractionController.h; sourceTree = "<group>"; };
+		D01FB7E05F944CCD780CEA436B7CA48D /* CEFlipAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEFlipAnimationController.h; path = AnimationControllers/CEFlipAnimationController.h; sourceTree = "<group>"; };
+		D1590117200F0256E6C42569FACD832D /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		D3B946570CB39FBC0E32446ED6F01DAF /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		D41BC1CBEC6188D1C86013B1993FB14B /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		D6AF81AB421B3A9F3EBEF26557BD23B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C92B22E43A784C653E9509430A39D4 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		D9B7430B9FCE4D9D9CE0295493F8EFEE /* CEPanAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEPanAnimationController.h; path = AnimationControllers/CEPanAnimationController.h; sourceTree = "<group>"; };
+		DE2F49B3F8536213A71FFCD68850EBA7 /* RZTransitionAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZTransitionAction.h; path = RZTransitions/Data/RZTransitionAction.h; sourceTree = "<group>"; };
+		E22E4B450DE325F9D5AF791E3E09F14A /* NSObject+RZTransitionsViewHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RZTransitionsViewHelpers.m"; path = "RZTransitions/Utilities/NSObject+RZTransitionsViewHelpers.m"; sourceTree = "<group>"; };
+		E61BB413F067853C9E8FB09E5C018DFA /* CEExplodeAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEExplodeAnimationController.h; path = AnimationControllers/CEExplodeAnimationController.h; sourceTree = "<group>"; };
+		E9A12A5FEFB9EFCAE04199FB3A61555F /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		EBCC9606E690520819D8DD7D3763D74D /* VCTransitionsLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VCTransitionsLibrary.xcconfig; sourceTree = "<group>"; };
+		EBF4C2DF82B719757E09F426F9A5FC1A /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		ECA38C2C8516D4450324AB9BF198A32B /* RZZoomBlurAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZZoomBlurAnimationController.h; path = RZTransitions/Transitions/RZZoomBlurAnimationController.h; sourceTree = "<group>"; };
+		ED8A5745AA5B942AD9C45C471FED01E2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		EF74FD5B3CB462FE55DE8E4FB2B93978 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		EFF2287589BB3EBC35698E730949635B /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		F515570FA15743A7DC4DF5EF4D88A5BB /* CEVerticalSwipeInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEVerticalSwipeInteractionController.m; path = InteractionControllers/CEVerticalSwipeInteractionController.m; sourceTree = "<group>"; };
+		F53EA1C3BA6F93D7D9805146FABE0491 /* CECrossfadeAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CECrossfadeAnimationController.h; path = AnimationControllers/CECrossfadeAnimationController.h; sourceTree = "<group>"; };
+		F69B950BFF1E35EE05A4D44B221D8F58 /* CEBaseInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CEBaseInteractionController.h; path = InteractionControllers/CEBaseInteractionController.h; sourceTree = "<group>"; };
+		F8FCDCDDFE0E312B832250BE4A0133FF /* CEExplodeAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CEExplodeAnimationController.m; path = AnimationControllers/CEExplodeAnimationController.m; sourceTree = "<group>"; };
+		F9302213044D2E27B26EAA0F1251104A /* CECrossfadeAnimationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CECrossfadeAnimationController.m; path = AnimationControllers/CECrossfadeAnimationController.m; sourceTree = "<group>"; };
+		FAA075D0B489586938D63B1C03B987BD /* RZUniqueTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZUniqueTransition.h; path = RZTransitions/Data/RZUniqueTransition.h; sourceTree = "<group>"; };
+		FB960D3B63EAE71E0175F8F5F496EC7E /* RZZoomAlphaAnimationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZZoomAlphaAnimationController.h; path = RZTransitions/Transitions/RZZoomAlphaAnimationController.h; sourceTree = "<group>"; };
+		FC4E34CD20AB487550CB9DB716F3F77A /* Pods-GrabiOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrabiOSTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FCD86ECD085053500B9C92CBBCFCFAAE /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		FD9DC9418E3C7FCFAADB086505F880F8 /* UIImage+RZTransitionsSnapshotHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RZTransitionsSnapshotHelpers.m"; path = "RZTransitions/Utilities/UIImage+RZTransitionsSnapshotHelpers.m"; sourceTree = "<group>"; };
+		FE41A9FFFC210E2F7170E9525497F255 /* RZTransitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZTransitions.h; path = RZTransitions/RZTransitions.h; sourceTree = "<group>"; };
+		FE7F3CA7BA23596F40669A4DAC9E887D /* Pods_GrabiOSTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabiOSTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C3F2459A6E05DBFE5952A392F66DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E927B5A659B140EEA5EC230F4C27D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956FDCB06E55A0E049B3D91719DFB1C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F58F96897D4FE90B2EFDA063982619 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C151364F15F39F7CC60CBF9A3AB49B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA9BE68D373E094EFA019CC4EA1720 /* CoreGraphics.framework in Frameworks */,
+				B99FAFBBC58F176BCBAA61124A21C14B /* Foundation.framework in Frameworks */,
+				4FE3D0FC60D1370E831CBFF9680FA8EB /* MobileCoreServices.framework in Frameworks */,
+				192AC43D2F848129D2CAC66DAAF6CA35 /* Security.framework in Frameworks */,
+				688E37A2E29646148D380D9034875174 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE796DEAD5D9BAAD56E6E72A2F914364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FB6A6AD021A9AACFAF06B34F6714B2 /* CoreGraphics.framework in Frameworks */,
+				D66A371AB9FEBFF41E42AFA3BF810058 /* Foundation.framework in Frameworks */,
+				78A0D22BB086F8D73E9BFE6FEE3D8D0C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07321C971C99E06EB6EA82F5125C5A2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59E23F626F1941F8B2EB794187C7391C /* AFNetworking */,
+				9C558CC6169911D176894607EF833A60 /* RZTransitions */,
+				3A94629424441F41318F73B337BAFC8D /* VCTransitionsLibrary */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36ECE1649CAA0D1B653209D2E3DF8978 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1764FC0D2E056677B3E16B184AA27BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23DD2B82203A7BB7854167367EC1BD34 /* AFNetworking.framework */,
+				FE7F3CA7BA23596F40669A4DAC9E887D /* Pods_GrabiOSTest.framework */,
+				1154663F9E0E66CE2EB4DBF832B598CD /* RZTransitions.framework */,
+				AB4B6C94F5DB985916BD53D3969043F9 /* VCTransitionsLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36ECE1649CAA0D1B653209D2E3DF8978 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F6CCCCEB9EC1F313B446B38E47A2DC6 /* CoreGraphics.framework */,
+				3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */,
+				B99B49BEEEF0599D9A8A5C7E71FF1FC3 /* MobileCoreServices.framework */,
+				44578A5153D11FA06E45CB7CBB7E930A /* Security.framework */,
+				B6DD83B3A88233A4EFA458D74866100D /* SystemConfiguration.framework */,
+				BE339893A9300FDD81EEF4C7035E7814 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3A94629424441F41318F73B337BAFC8D /* VCTransitionsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				F69B950BFF1E35EE05A4D44B221D8F58 /* CEBaseInteractionController.h */,
+				19DF51C25E4FABDFAF04C3250B61AF21 /* CEBaseInteractionController.m */,
+				655B280EE990735563C83743F44CFD6C /* CECardsAnimationController.h */,
+				94660B9381DCD486D4224015AA7768C2 /* CECardsAnimationController.m */,
+				F53EA1C3BA6F93D7D9805146FABE0491 /* CECrossfadeAnimationController.h */,
+				F9302213044D2E27B26EAA0F1251104A /* CECrossfadeAnimationController.m */,
+				46C0C82F9CB6B0FA82FE43ECFAA9619E /* CECubeAnimationController.h */,
+				0A6CEC0A63EC0C8E6FBBC96C5E472997 /* CECubeAnimationController.m */,
+				E61BB413F067853C9E8FB09E5C018DFA /* CEExplodeAnimationController.h */,
+				F8FCDCDDFE0E312B832250BE4A0133FF /* CEExplodeAnimationController.m */,
+				D01FB7E05F944CCD780CEA436B7CA48D /* CEFlipAnimationController.h */,
+				351EAE6C5FBBA02D00C5BA55B471FABB /* CEFlipAnimationController.m */,
+				2EF3E2982E656E6F4258FABA2B8CD941 /* CEFoldAnimationController.h */,
+				A768478280C19D0FB59FD1B3E5779643 /* CEFoldAnimationController.m */,
+				AB452146BFCEADFBF11C2441583CA614 /* CEHorizontalSwipeInteractionController.h */,
+				573E9D494AFC02FA21511E522E97FF64 /* CEHorizontalSwipeInteractionController.m */,
+				643A0CEB07526F10A7C2E692E4E6740D /* CENatGeoAnimationController.h */,
+				A6F32371422FC3996B921D6765A0D41C /* CENatGeoAnimationController.m */,
+				D9B7430B9FCE4D9D9CE0295493F8EFEE /* CEPanAnimationController.h */,
+				57CA3A5A667544AD27C58C1947A42481 /* CEPanAnimationController.m */,
+				ABC2860034332320005FFC17032CF6B5 /* CEPinchInteractionController.h */,
+				4AA7C23CBD9783DACE343AB6BC9E1F2D /* CEPinchInteractionController.m */,
+				36AFBBE2E1347E62E6F1E9F9492A6E2F /* CEPortalAnimationController.h */,
+				822961B637CB734E2A8071D2B6F12763 /* CEPortalAnimationController.m */,
+				124A92875CBAFC8F44260CA39EDBAD84 /* CEReversibleAnimationController.h */,
+				3A67CBC23824B18CEF16BB6F9F132926 /* CEReversibleAnimationController.m */,
+				A58E470441C196464562C0A05CC157BC /* CETurnAnimationController.h */,
+				15AAB4F6A28E7AA8F4B5D65876233990 /* CETurnAnimationController.m */,
+				6BF10A800ABD2B1E75A370B597D0EE99 /* CEVerticalSwipeInteractionController.h */,
+				F515570FA15743A7DC4DF5EF4D88A5BB /* CEVerticalSwipeInteractionController.m */,
+				A2E1C3C171C31A297969454354D43CF0 /* Support Files */,
+			);
+			path = VCTransitionsLibrary;
+			sourceTree = "<group>";
+		};
+		57702D8F6B4560477B35DDF56C6F7C14 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE0B81C6836E1DF7631645179126B88 /* Pods-GrabiOSTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59E23F626F1941F8B2EB794187C7391C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EF74FD5B3CB462FE55DE8E4FB2B93978 /* AFNetworking.h */,
+				F5D6E4C580F757AE6B0DA5CA288389D1 /* NSURLSession */,
+				F63AC17167F9BE45691FC1F7B8322284 /* Reachability */,
+				FCEF844F8979933987F8A6842DA12E44 /* Security */,
+				D021AAC4E2FB4DBD638B91D4052610B3 /* Serialization */,
+				8E84789A21B6844DBFE730B38BE40845 /* Support Files */,
+				BBBBF2F9C40479EAEE0EB769F8CC5C43 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		7BB23B173A4E025A598B90AA4F3D5DB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68790E6AC535DF21446268705AE6F801 /* Info.plist */,
+				7DBD9424FABACD057023C970488858E3 /* RZTransitions.modulemap */,
+				2A558A81A3F71AD52C56B3FFA4CD8624 /* RZTransitions.xcconfig */,
+				A3FEAC38FD81810AF5A4706CFDB9B917 /* RZTransitions-dummy.m */,
+				5C27C467240D1CABB74D1BFD23404078 /* RZTransitions-prefix.pch */,
+				4A9FFC5A4E1C8C391126F00D7BB254E8 /* RZTransitions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RZTransitions";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				07321C971C99E06EB6EA82F5125C5A2F /* Pods */,
+				1764FC0D2E056677B3E16B184AA27BC6 /* Products */,
+				57702D8F6B4560477B35DDF56C6F7C14 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E84789A21B6844DBFE730B38BE40845 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DAC942A838F6E6D9B5A4339D8E3E6D9 /* AFNetworking.modulemap */,
+				6787BD51860A752A44FD2479759B8AF6 /* AFNetworking.xcconfig */,
+				E9A12A5FEFB9EFCAE04199FB3A61555F /* AFNetworking-dummy.m */,
+				D41BC1CBEC6188D1C86013B1993FB14B /* AFNetworking-prefix.pch */,
+				627CA144B73225E15607B60DEE8DEEC8 /* AFNetworking-umbrella.h */,
+				35F867A726B2E6918B85A9B1D4A23F2F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		9C558CC6169911D176894607EF833A60 /* RZTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				CD6BB9A1818AAC561E721908D73C9BB7 /* NSObject+RZTransitionsViewHelpers.h */,
+				E22E4B450DE325F9D5AF791E3E09F14A /* NSObject+RZTransitionsViewHelpers.m */,
+				6035E7E7791ADCFEF32316542E82CD81 /* RZAnimationControllerProtocol.h */,
+				4EFCA55436B6DF9E777F0005ABBA46A2 /* RZBaseSwipeInteractionController.h */,
+				88B55C19104D71E0971A374698EBC0E2 /* RZBaseSwipeInteractionController.m */,
+				4739E0A49AB938C253697A7DDFA765BC /* RZCardSlideAnimationController.h */,
+				893A7812EEED00A2DD95324CA40392AC /* RZCardSlideAnimationController.m */,
+				AF957F3E8A9ECAD460C24383B989CACA /* RZCirclePushAnimationController.h */,
+				AAF508EF439BE183814BF9819D4ADF3F /* RZCirclePushAnimationController.m */,
+				3BA87287E058E03537C46298E8F3CD24 /* RZHorizontalInteractionController.h */,
+				35110E4927B82B40DDAAE61148D2C972 /* RZHorizontalInteractionController.m */,
+				CF69F32C3D81DCC365135527ECE1B605 /* RZOverscrollInteractionController.h */,
+				81BB488D31385154A5F4D559BB31B56C /* RZOverscrollInteractionController.m */,
+				9FDFC7E5F3D5762FD7C795B4E08A2D63 /* RZPinchInteractionController.h */,
+				49404FB3CCA855A8CC7DA7B5F635FDB2 /* RZPinchInteractionController.m */,
+				1236223B3086A4BE8B8922E7A7A73044 /* RZRectZoomAnimationController.h */,
+				922D9A52CAB43EAC43D90CE248AB9DB9 /* RZRectZoomAnimationController.m */,
+				2FA238833A89F93DFBAFF25E5E8DF0B3 /* RZSegmentControlMoveFadeAnimationController.h */,
+				A5D87DBCE9BD78A87BBA379ACDADAFC5 /* RZSegmentControlMoveFadeAnimationController.m */,
+				0D172EB7F557C647F1382C02133E8C2A /* RZShrinkZoomAnimationController.h */,
+				01BD496AE899520279C516D5F16AF7B0 /* RZShrinkZoomAnimationController.m */,
+				DE2F49B3F8536213A71FFCD68850EBA7 /* RZTransitionAction.h */,
+				638C07E4B9F2DEFA47D634161A67F1F0 /* RZTransitionInteractionControllerProtocol.h */,
+				FE41A9FFFC210E2F7170E9525497F255 /* RZTransitions.h */,
+				7206E9E47836D270E7A166409B86B180 /* RZTransitionsAnimationControllers.h */,
+				2AA59CDDAE4AC252763E6A43F20352D2 /* RZTransitionsInteractionControllers.h */,
+				2E5B4A065FE8289E94F7E83B493E9EDC /* RZTransitionsManager.h */,
+				3F7BCCE48122243AE29A66306303DCA4 /* RZTransitionsManager.m */,
+				6E65A5263EDE6837F089BC1691A114DF /* RZTransitionsNavigationController.h */,
+				02DA9CC7B00FD923F61FA53255617B0F /* RZTransitionsNavigationController.m */,
+				FAA075D0B489586938D63B1C03B987BD /* RZUniqueTransition.h */,
+				A979C6512A9B6789ABB02B3A687C3991 /* RZUniqueTransition.m */,
+				9B93BC12CC69AC4248C25E14532AA258 /* RZVerticalSwipeInteractionController.h */,
+				6FED19FDA753549FE9DD6CDE02C80908 /* RZVerticalSwipeInteractionController.m */,
+				FB960D3B63EAE71E0175F8F5F496EC7E /* RZZoomAlphaAnimationController.h */,
+				9FC8094B41449D4605E2CB0812AC7A23 /* RZZoomAlphaAnimationController.m */,
+				ECA38C2C8516D4450324AB9BF198A32B /* RZZoomBlurAnimationController.h */,
+				27DDD3DEDC91E9F3B9EF0416A640F3C4 /* RZZoomBlurAnimationController.m */,
+				BD9760122662351CA7DD0E21D5E44BA1 /* RZZoomPushAnimationController.h */,
+				63F170D711C06ECF3CC5CF067DAB399A /* RZZoomPushAnimationController.m */,
+				54BD68ED6D8918EAF8853AF5D5EE8863 /* UIImage+RZTransitionsFastImageBlur.h */,
+				0DDAEBF1D7E1511CCF41300C0721A633 /* UIImage+RZTransitionsFastImageBlur.m */,
+				B9D68644544AA0119F19BC5B89AA5AF7 /* UIImage+RZTransitionsSnapshotHelpers.h */,
+				FD9DC9418E3C7FCFAADB086505F880F8 /* UIImage+RZTransitionsSnapshotHelpers.m */,
+				7BB23B173A4E025A598B90AA4F3D5DB1 /* Support Files */,
+			);
+			path = RZTransitions;
+			sourceTree = "<group>";
+		};
+		A2E1C3C171C31A297969454354D43CF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E042645F74EDA8E1A02C9023854B65 /* Info.plist */,
+				301915171B54D0590EBB42E81AA9BF5E /* VCTransitionsLibrary.modulemap */,
+				EBCC9606E690520819D8DD7D3763D74D /* VCTransitionsLibrary.xcconfig */,
+				7EF19C275EACC71AE90C1EB65E952AC8 /* VCTransitionsLibrary-dummy.m */,
+				BFC3FBE9D31EA7D6079D97548522B43A /* VCTransitionsLibrary-prefix.pch */,
+				8B3D9235F1C8102EFE2F3D8DC5D2892B /* VCTransitionsLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VCTransitionsLibrary";
+			sourceTree = "<group>";
+		};
+		BBBBF2F9C40479EAEE0EB769F8CC5C43 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FCD86ECD085053500B9C92CBBCFCFAAE /* AFAutoPurgingImageCache.h */,
+				C1F68E5F39B252E4617B42ED2131D437 /* AFAutoPurgingImageCache.m */,
+				5BA9975E26F885BEF21E4C425267F876 /* AFImageDownloader.h */,
+				898B1D16F88B873E45687201742A1BA4 /* AFImageDownloader.m */,
+				D7C92B22E43A784C653E9509430A39D4 /* AFNetworkActivityIndicatorManager.h */,
+				306ADCAF8A6DE193F9FF711FDBA1C901 /* AFNetworkActivityIndicatorManager.m */,
+				786EC37612066D473FF8080B0E6F3086 /* UIActivityIndicatorView+AFNetworking.h */,
+				76D6117A5CA2B769EB145DBD3EEEB00F /* UIActivityIndicatorView+AFNetworking.m */,
+				EBF4C2DF82B719757E09F426F9A5FC1A /* UIButton+AFNetworking.h */,
+				D1590117200F0256E6C42569FACD832D /* UIButton+AFNetworking.m */,
+				1B537DFF32152DEBC84212F145A15EB5 /* UIImage+AFNetworking.h */,
+				8E8B74CE1AE8B2E13A3281B09F8F25AA /* UIImageView+AFNetworking.h */,
+				2DBA7B46B23C734BB81BED9EEDB17CC9 /* UIImageView+AFNetworking.m */,
+				00C279EC1B5ABF57F912193D113C9554 /* UIKit+AFNetworking.h */,
+				9D6F1CEC63D39B5A0AB2B10FC31161D1 /* UIProgressView+AFNetworking.h */,
+				8A7DC18AB17313B6545FDFE08B87679C /* UIProgressView+AFNetworking.m */,
+				964B8C6C9235D2BF5D7F903292210CED /* UIRefreshControl+AFNetworking.h */,
+				84AE2C5807B290DAEEB51620A08AC238 /* UIRefreshControl+AFNetworking.m */,
+				3DAD48186789F8A51DEB2D9453876262 /* UIWebView+AFNetworking.h */,
+				6DF7A350BB4F40A3A653AF61C9ED6D55 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		D021AAC4E2FB4DBD638B91D4052610B3 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				14D42866A898837801A767A081D9B184 /* AFURLRequestSerialization.h */,
+				B5DA03DBB0B7FF2DDB9E6FEAF7E6E1BF /* AFURLRequestSerialization.m */,
+				D3B946570CB39FBC0E32446ED6F01DAF /* AFURLResponseSerialization.h */,
+				C59F2BAD1048194744ADFD329D7AF971 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		F5D6E4C580F757AE6B0DA5CA288389D1 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				6A65140A4D6CB718DB9916EDCB9A4EAB /* AFHTTPSessionManager.h */,
+				5EC79C1ADC4D7C4B8206776477479A86 /* AFHTTPSessionManager.m */,
+				C74AB42F93C49C31BD7C8C9351B5ED66 /* AFURLSessionManager.h */,
+				EFF2287589BB3EBC35698E730949635B /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		F63AC17167F9BE45691FC1F7B8322284 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7375751660D43001E468334FAD50215B /* AFNetworkReachabilityManager.h */,
+				62FA80F30E0CB375C3417F8FDF446C2E /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		FAE0B81C6836E1DF7631645179126B88 /* Pods-GrabiOSTest */ = {
+			isa = PBXGroup;
+			children = (
+				D6AF81AB421B3A9F3EBEF26557BD23B8 /* Info.plist */,
+				81A3CA446534A1CD9C8AA0CF071769EE /* Pods-GrabiOSTest.modulemap */,
+				0172EE0BE9CA3C74BCE2B90F2A3D62B1 /* Pods-GrabiOSTest-acknowledgements.markdown */,
+				743EA3E77AC87ED2963202CAC47DAC02 /* Pods-GrabiOSTest-acknowledgements.plist */,
+				16A12047C10B4A4651CBFAC8DFB22691 /* Pods-GrabiOSTest-dummy.m */,
+				C3C91FE7242AA56CDDA9929AD9331383 /* Pods-GrabiOSTest-frameworks.sh */,
+				064135FA0551CF1CD8D0E9EAD21EE142 /* Pods-GrabiOSTest-resources.sh */,
+				97DD2CEBB3F16FC6A603F949B964517C /* Pods-GrabiOSTest-umbrella.h */,
+				FC4E34CD20AB487550CB9DB716F3F77A /* Pods-GrabiOSTest.debug.xcconfig */,
+				2DCA36687775A2FBB74F7CA910B53F08 /* Pods-GrabiOSTest.release.xcconfig */,
+			);
+			name = "Pods-GrabiOSTest";
+			path = "Target Support Files/Pods-GrabiOSTest";
+			sourceTree = "<group>";
+		};
+		FCEF844F8979933987F8A6842DA12E44 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A65AD0460BA4992CA3FBD018F9153 /* AFSecurityPolicy.h */,
+				ED8A5745AA5B942AD9C45C471FED01E2 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7C6A0D99A9CC32A19A92A62F8A941139 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC483EF637FB4A2C2E2FC75BA631B87 /* AFAutoPurgingImageCache.h in Headers */,
+				AB39AC9746E7575D7449700475E41B0B /* AFHTTPSessionManager.h in Headers */,
+				5808B477EFF509D810B5CDCFDC944F80 /* AFImageDownloader.h in Headers */,
+				1480F4923DBBF217F60572EEECB4027C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				EC7CADE416A78A1CD6936018A6695126 /* AFNetworking-umbrella.h in Headers */,
+				E7988678C81F7CCB95D239375FC6986D /* AFNetworking.h in Headers */,
+				68152D921ABF6A423C192C04FDF94F0F /* AFNetworkReachabilityManager.h in Headers */,
+				C2DD28375E1F0B1D0D1D2E4E607C499F /* AFSecurityPolicy.h in Headers */,
+				20EE8030FCF2402DAC7F1C9B9DDAEF79 /* AFURLRequestSerialization.h in Headers */,
+				7332F15718920917F544F35CE2C038AA /* AFURLResponseSerialization.h in Headers */,
+				560698A4D707DCBCC1C8F98BC9B89B23 /* AFURLSessionManager.h in Headers */,
+				1E5B8F12ED7CC40ECDB9B1F755F387E5 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				81B617F8D26BB10C5726D75E85D21EB7 /* UIButton+AFNetworking.h in Headers */,
+				9E1E90DED74B73ECE53C9AD76DE53E2D /* UIImage+AFNetworking.h in Headers */,
+				60E3009342BEE96D32C546BE2DB60052 /* UIImageView+AFNetworking.h in Headers */,
+				659960F7E28E993E08CCC1E8A383E710 /* UIKit+AFNetworking.h in Headers */,
+				D9F4E833E37B611B432F6B5D7072DDA2 /* UIProgressView+AFNetworking.h in Headers */,
+				C6354FEC7728A4C86DAD8092509BA7D4 /* UIRefreshControl+AFNetworking.h in Headers */,
+				AE2A07407FB50BA249984DC0620E84C0 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A6C794BFE1B8678EB5CB1D8EC91661 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B732B220989E69972EC7CD7EFF966765 /* CEBaseInteractionController.h in Headers */,
+				14A26E5EDE2D7DE1F80FD357ABC0924B /* CECardsAnimationController.h in Headers */,
+				FCFD88EFD7C300189F45BC0E05CACC5C /* CECrossfadeAnimationController.h in Headers */,
+				184F031D11682924722B7B9A1BAAFE8A /* CECubeAnimationController.h in Headers */,
+				41E201CE0F982125B5BB83C95BD9D2F3 /* CEExplodeAnimationController.h in Headers */,
+				89B9D024A027439DAE8F6BF7078C68AE /* CEFlipAnimationController.h in Headers */,
+				11BF94C6C39DB1DA33C1B614D23B6A1A /* CEFoldAnimationController.h in Headers */,
+				67726D6FCA121728D7122DB855D70670 /* CEHorizontalSwipeInteractionController.h in Headers */,
+				6B9E244466D7440B21CA5879E7DF1FA0 /* CENatGeoAnimationController.h in Headers */,
+				860076B7656F9ED0C0F6E2F7765F0C7A /* CEPanAnimationController.h in Headers */,
+				D42476FD1CFAEB86DF6BBEDAEE2B77E9 /* CEPinchInteractionController.h in Headers */,
+				9CE293D5A6DFB848BBA3B94B08F204D0 /* CEPortalAnimationController.h in Headers */,
+				CD727AA00A7070F5A2D7BBFF6A7311BD /* CEReversibleAnimationController.h in Headers */,
+				7525431F7FB7B672F6A041A3F20F892C /* CETurnAnimationController.h in Headers */,
+				837776761FA4020E2081183E058B8F63 /* CEVerticalSwipeInteractionController.h in Headers */,
+				87A3D65AA9023F64E8C954C7972FB75E /* VCTransitionsLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E6F0D0763005A298C7A9BCF9DE0606 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18CAB2CAED34E03B35E83971714A222 /* Pods-GrabiOSTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F405D20F105FEFE156D5AA7441A33076 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB44D6747DB81E7A80DF68BF36DA131 /* NSObject+RZTransitionsViewHelpers.h in Headers */,
+				C96E3DBD868516CDC3FC93A5555EB8D9 /* RZAnimationControllerProtocol.h in Headers */,
+				6B747A2A528A63B958DC8D9B0853B979 /* RZBaseSwipeInteractionController.h in Headers */,
+				8AD20BEB89E3336C87DD3DADB7136C63 /* RZCardSlideAnimationController.h in Headers */,
+				5C878CA17E96D59BF2872B11E1827D1C /* RZCirclePushAnimationController.h in Headers */,
+				DC96ED794C817C85F07EDB2A506118AE /* RZHorizontalInteractionController.h in Headers */,
+				FBC04BAD50E6A4671814C735B446EEF8 /* RZOverscrollInteractionController.h in Headers */,
+				DD1C620BD65022649A5687B070322628 /* RZPinchInteractionController.h in Headers */,
+				72BED9EF487E90F1679B688BC6AE7263 /* RZRectZoomAnimationController.h in Headers */,
+				457F0EF8F3C965B8BC2E2CDAC3C1447C /* RZSegmentControlMoveFadeAnimationController.h in Headers */,
+				36EA1D7977D21EDE48190A866BF2693C /* RZShrinkZoomAnimationController.h in Headers */,
+				2AC21B59607ABA3C372E076401A61F63 /* RZTransitionAction.h in Headers */,
+				456515BEDDE9CBD5A74AE646BA0285ED /* RZTransitionInteractionControllerProtocol.h in Headers */,
+				8DF632FAF346D1C0996BFB2273523BF9 /* RZTransitions-umbrella.h in Headers */,
+				015C18018C4AD0344077D77C66669C71 /* RZTransitions.h in Headers */,
+				8B80B80192A37BE8607124157BF35B25 /* RZTransitionsAnimationControllers.h in Headers */,
+				B902BCE1E7E6E99AA7CA4E471332DAFE /* RZTransitionsInteractionControllers.h in Headers */,
+				2B8BD9F8C2ADCE3306553E679BB6B7D1 /* RZTransitionsManager.h in Headers */,
+				F254595FCDB0533D5C6B5AB78EA3A0D0 /* RZTransitionsNavigationController.h in Headers */,
+				E6CFFA92B6783191532B2583C9777F3C /* RZUniqueTransition.h in Headers */,
+				7F2219336DAE7B64466917A429357B5E /* RZVerticalSwipeInteractionController.h in Headers */,
+				829D81219849EC8852D066F6F142D082 /* RZZoomAlphaAnimationController.h in Headers */,
+				217A4C84EC2EA16FBDFE5F8C64C9820D /* RZZoomBlurAnimationController.h in Headers */,
+				F9B8684D48A137938148376854B2FF02 /* RZZoomPushAnimationController.h in Headers */,
+				28E2DA096500D9720031B7B7943BAF61 /* UIImage+RZTransitionsFastImageBlur.h in Headers */,
+				068C3A3BDE14C996C60EC102A158BB15 /* UIImage+RZTransitionsSnapshotHelpers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C3436CEA5C3D39764C5F54374794ECB /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57800A0D1724774333EF09E83030AA81 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				1F17F426378DF5EC8DFB10304B8C4BA4 /* Sources */,
+				C151364F15F39F7CC60CBF9A3AB49B44 /* Frameworks */,
+				7C6A0D99A9CC32A19A92A62F8A941139 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 23DD2B82203A7BB7854167367EC1BD34 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		459B2595CAD8DB310B13230CF1C41E7D /* Pods-GrabiOSTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6714B26D2F0739B48C3B9DE649B2DFE3 /* Build configuration list for PBXNativeTarget "Pods-GrabiOSTest" */;
+			buildPhases = (
+				C114DD34A674D978AFD3D2476F4EC70B /* Sources */,
+				17C3F2459A6E05DBFE5952A392F66DB6 /* Frameworks */,
+				B9E6F0D0763005A298C7A9BCF9DE0606 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B07BAA614D5B58D4664E1F5D2C87297 /* PBXTargetDependency */,
+				50FBED4DA18E0535C31D5EF2E1AF4B61 /* PBXTargetDependency */,
+				AA8E2C3F9E62AC6D8D0732D61C0F269F /* PBXTargetDependency */,
+			);
+			name = "Pods-GrabiOSTest";
+			productName = "Pods-GrabiOSTest";
+			productReference = FE7F3CA7BA23596F40669A4DAC9E887D /* Pods_GrabiOSTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FD6B31B080E2657E817F3D437BD9A31 /* VCTransitionsLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11134B497C6403DBDAD81B29E56EC121 /* Build configuration list for PBXNativeTarget "VCTransitionsLibrary" */;
+			buildPhases = (
+				8B98F88806E2472E206F33750ADA0B8A /* Sources */,
+				956FDCB06E55A0E049B3D91719DFB1C3 /* Frameworks */,
+				A7A6C794BFE1B8678EB5CB1D8EC91661 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCTransitionsLibrary;
+			productName = VCTransitionsLibrary;
+			productReference = AB4B6C94F5DB985916BD53D3969043F9 /* VCTransitionsLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A768069D80E3F8A56853A4116E4842DD /* RZTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126AD7BDAEE883E7B8E9F55975609BEA /* Build configuration list for PBXNativeTarget "RZTransitions" */;
+			buildPhases = (
+				55EBFF30DADFDEB4C5CD36E75A8629CF /* Sources */,
+				FE796DEAD5D9BAAD56E6E72A2F914364 /* Frameworks */,
+				F405D20F105FEFE156D5AA7441A33076 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZTransitions;
+			productName = RZTransitions;
+			productReference = 1154663F9E0E66CE2EB4DBF832B598CD /* RZTransitions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1764FC0D2E056677B3E16B184AA27BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C3436CEA5C3D39764C5F54374794ECB /* AFNetworking */,
+				459B2595CAD8DB310B13230CF1C41E7D /* Pods-GrabiOSTest */,
+				A768069D80E3F8A56853A4116E4842DD /* RZTransitions */,
+				4FD6B31B080E2657E817F3D437BD9A31 /* VCTransitionsLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F17F426378DF5EC8DFB10304B8C4BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1BC9BAFFEEABB1ABC7614DF0FC97D5 /* AFAutoPurgingImageCache.m in Sources */,
+				E0D4045AC4C1B41917FCA23A042D18B2 /* AFHTTPSessionManager.m in Sources */,
+				CFA8D6B529A0EBFF0316F2629AB2556E /* AFImageDownloader.m in Sources */,
+				A6C6019D45BE62C61210A9CC619368EF /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3D2789FC760A97301909F0B1201626CD /* AFNetworking-dummy.m in Sources */,
+				68A38977EBAE334DC3C22386D00D2622 /* AFNetworkReachabilityManager.m in Sources */,
+				20607BE2B1E5F31765026E5AC64DB27D /* AFSecurityPolicy.m in Sources */,
+				DFFA215EEAA8DDBD540076927535275C /* AFURLRequestSerialization.m in Sources */,
+				B5852322ADE88AAD56EE042B80BA81E4 /* AFURLResponseSerialization.m in Sources */,
+				707B1A7541C8DBDDE8C27896A61370BE /* AFURLSessionManager.m in Sources */,
+				6ED4ABEE8A5F51F5ECB59FA1781D29C6 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				AF03C11A1FAC8132AD3749D8F541701A /* UIButton+AFNetworking.m in Sources */,
+				2E8A32ED46194EDBE22146271F6D26DE /* UIImageView+AFNetworking.m in Sources */,
+				5FF6453E55785669885F626B853FD2AA /* UIProgressView+AFNetworking.m in Sources */,
+				174202BD6AE0E4A41F5CE66E975EAE52 /* UIRefreshControl+AFNetworking.m in Sources */,
+				A462945883F7729B185B64B679A6BFBE /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55EBFF30DADFDEB4C5CD36E75A8629CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3E2FB6A404B1E873CEDA297DBA7A69 /* NSObject+RZTransitionsViewHelpers.m in Sources */,
+				D8F003CE1F1CB7D7C876532CE9C84E04 /* RZBaseSwipeInteractionController.m in Sources */,
+				6FB148A708C6536C61F8895A8DCBE952 /* RZCardSlideAnimationController.m in Sources */,
+				8B4D73A11F24BDB8E95A10D638BBC004 /* RZCirclePushAnimationController.m in Sources */,
+				0947309076278BBA1A804ED67FC9DEDF /* RZHorizontalInteractionController.m in Sources */,
+				6CECC6F04DCA395D38E4F3964FEEE02C /* RZOverscrollInteractionController.m in Sources */,
+				D0BD7DF3157C41C9BC5077FBDBC2DE97 /* RZPinchInteractionController.m in Sources */,
+				512F6EE8AB30FC37DB4C14FECCB8B1A6 /* RZRectZoomAnimationController.m in Sources */,
+				E6170B33537BEB14A2E4683853D4D182 /* RZSegmentControlMoveFadeAnimationController.m in Sources */,
+				0557002BAB24B0C64752B120562C9E35 /* RZShrinkZoomAnimationController.m in Sources */,
+				F38FB5ED446F91D8A125F74AC4694B76 /* RZTransitions-dummy.m in Sources */,
+				1190C9524DCF094A4F49C2FB532EA05B /* RZTransitionsManager.m in Sources */,
+				3C8CD1E5B72CF4A01364F899E22655EF /* RZTransitionsNavigationController.m in Sources */,
+				54E47078C9779A19AD7AB69E99542046 /* RZUniqueTransition.m in Sources */,
+				0020ECC0C0B85B4D5CA4BD4102332851 /* RZVerticalSwipeInteractionController.m in Sources */,
+				365A320785AF847A96E8BE31945E3602 /* RZZoomAlphaAnimationController.m in Sources */,
+				46E9E8C9CBB6F6571BAAEDA0CC4C5EEC /* RZZoomBlurAnimationController.m in Sources */,
+				C4BCED6BE80E3C35AA57C3006E6D55C2 /* RZZoomPushAnimationController.m in Sources */,
+				26C00D366F0BFFCB6880E34C2B990C1A /* UIImage+RZTransitionsFastImageBlur.m in Sources */,
+				45C48532156413041F50F1C34F1334A9 /* UIImage+RZTransitionsSnapshotHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B98F88806E2472E206F33750ADA0B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB935BBC4F04CD697002748D6542AE2 /* CEBaseInteractionController.m in Sources */,
+				3706D58F7925DD684A8DEE261B78A6CE /* CECardsAnimationController.m in Sources */,
+				DD1CDDDD44C355BB690F4B1222B3548B /* CECrossfadeAnimationController.m in Sources */,
+				60558695D738FD36218F7D3DDFF598F0 /* CECubeAnimationController.m in Sources */,
+				FC0CAD829DD3B2007DFEBE9503366E74 /* CEExplodeAnimationController.m in Sources */,
+				6C0DC225FFD47294DC02802D51CC4342 /* CEFlipAnimationController.m in Sources */,
+				BC53053AFCE46D9F6AEA54C392B318B0 /* CEFoldAnimationController.m in Sources */,
+				D5A59DA44259C1D6E77C02C2112B48E8 /* CEHorizontalSwipeInteractionController.m in Sources */,
+				1172737DFFE8656FAE2F6717C3AC4254 /* CENatGeoAnimationController.m in Sources */,
+				C48441C4DA7F9740C9BA4940C11F9AC8 /* CEPanAnimationController.m in Sources */,
+				0F9C57BBBE3D927A3C1C3F9FFC086E85 /* CEPinchInteractionController.m in Sources */,
+				81D03DC8B31873C3509CAB95EDD0B58C /* CEPortalAnimationController.m in Sources */,
+				C82A64B0F0147A4A897896ABB7F53C69 /* CEReversibleAnimationController.m in Sources */,
+				76D777DE893BDB2B7B471E3B56535A02 /* CETurnAnimationController.m in Sources */,
+				B8BE53DD7FB2397BCBE41AD2A439E70B /* CEVerticalSwipeInteractionController.m in Sources */,
+				C55DA5F185DAA1E02A9F11FC9C13323A /* VCTransitionsLibrary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C114DD34A674D978AFD3D2476F4EC70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ABE1F89C94ED325425A38239BCDB73 /* Pods-GrabiOSTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B07BAA614D5B58D4664E1F5D2C87297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 1C3436CEA5C3D39764C5F54374794ECB /* AFNetworking */;
+			targetProxy = EA2E8B8AFA59B3A27D12B91370D4F1AB /* PBXContainerItemProxy */;
+		};
+		50FBED4DA18E0535C31D5EF2E1AF4B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RZTransitions;
+			target = A768069D80E3F8A56853A4116E4842DD /* RZTransitions */;
+			targetProxy = B47CF41C635C678D497FF20169D04087 /* PBXContainerItemProxy */;
+		};
+		AA8E2C3F9E62AC6D8D0732D61C0F269F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VCTransitionsLibrary;
+			target = 4FD6B31B080E2657E817F3D437BD9A31 /* VCTransitionsLibrary */;
+			targetProxy = B5B5DAA132B60C2E7F2F08278A981B74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2952B3C6909CF79419E899529474B8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6787BD51860A752A44FD2479759B8AF6 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		48911B47A10C65EEBC65A425C77F05E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4E34CD20AB487550CB9DB716F3F77A /* Pods-GrabiOSTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GrabiOSTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GrabiOSTest/Pods-GrabiOSTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GrabiOSTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7305B157D3C76A16C30FC0AD950C17D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A558A81A3F71AD52C56B3FFA4CD8624 /* RZTransitions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RZTransitions/RZTransitions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RZTransitions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RZTransitions/RZTransitions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RZTransitions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F80747824D4624542536E0335FD7F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCC9606E690520819D8DD7D3763D74D /* VCTransitionsLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VCTransitionsLibrary/VCTransitionsLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VCTransitionsLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VCTransitionsLibrary/VCTransitionsLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VCTransitionsLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC044B65E2FB02CB420DF9AE625B92F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6787BD51860A752A44FD2479759B8AF6 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0E3349BBE0FDD2F9252E2766F4A79F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DCA36687775A2FBB74F7CA910B53F08 /* Pods-GrabiOSTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GrabiOSTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GrabiOSTest/Pods-GrabiOSTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GrabiOSTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB2B4E1D5B3F21F5AB6146580DC9486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A558A81A3F71AD52C56B3FFA4CD8624 /* RZTransitions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RZTransitions/RZTransitions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RZTransitions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RZTransitions/RZTransitions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RZTransitions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6D7A2543A22F11D5AB8F5A14B427289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCC9606E690520819D8DD7D3763D74D /* VCTransitionsLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VCTransitionsLibrary/VCTransitionsLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VCTransitionsLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VCTransitionsLibrary/VCTransitionsLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VCTransitionsLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11134B497C6403DBDAD81B29E56EC121 /* Build configuration list for PBXNativeTarget "VCTransitionsLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F80747824D4624542536E0335FD7F01 /* Debug */,
+				F6D7A2543A22F11D5AB8F5A14B427289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126AD7BDAEE883E7B8E9F55975609BEA /* Build configuration list for PBXNativeTarget "RZTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7305B157D3C76A16C30FC0AD950C17D7 /* Debug */,
+				ECB2B4E1D5B3F21F5AB6146580DC9486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57800A0D1724774333EF09E83030AA81 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC044B65E2FB02CB420DF9AE625B92F2 /* Debug */,
+				2952B3C6909CF79419E899529474B8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6714B26D2F0739B48C3B9DE649B2DFE3 /* Build configuration list for PBXNativeTarget "Pods-GrabiOSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48911B47A10C65EEBC65A425C77F05E8 /* Debug */,
+				D0E3349BBE0FDD2F9252E2766F4A79F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
